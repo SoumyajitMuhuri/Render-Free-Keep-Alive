@@ -1,4 +1,4 @@
-# Render Keep-Alive
+# Render-FREE-Keep-Alive
 
 A simple Cron-based script to periodically send automated requests to your application's health endpoint when hosting on Render's Free Tier.
 
