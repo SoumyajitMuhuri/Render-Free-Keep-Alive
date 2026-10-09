@@ -83,4 +83,5 @@ The Cron job will start only when `NODE_ENV` is set to `production`.
 ## Important Notes
 
 - Ensure your configured URL points to a valid, reachable endpoint.
+- Ensure you have configured "/health" a valid, reachable endpoint.
 - This is a workaround, not a guarantee of uninterrupted availability. Render may still spin down or restart free services, and you should review Render's current policies before relying on periodic pings.
