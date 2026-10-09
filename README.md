@@ -83,9 +83,4 @@ The Cron job will start only when `NODE_ENV` is set to `production`.
 ## Important Notes
 
 - Ensure your configured URL points to a valid, reachable endpoint.
-- Keep your Cron interval below Render's 15-minute inactivity threshold if you intend to use this approach.
 - This is a workaround, not a guarantee of uninterrupted availability. Render may still spin down or restart free services, and you should review Render's current policies before relying on periodic pings.
-
-## License
-
-Use and modify this script for your own projects as needed.
