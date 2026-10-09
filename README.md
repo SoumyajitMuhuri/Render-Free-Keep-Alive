@@ -80,6 +80,16 @@ NODE_ENV=development
 
 The Cron job will start only when `NODE_ENV` is set to `production`.
 
+**Example**
+
+```javascript
+import job from "./cron.js";
+
+app.listen(process.env.PORT, () => {
+    process.env.NODE_ENV === "production" && job.start();
+});
+```
+
 ## Important Notes
 
 - Ensure your configured URL points to a valid, reachable endpoint.
