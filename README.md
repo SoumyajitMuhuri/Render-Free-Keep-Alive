@@ -23,10 +23,10 @@ Copy the `cron.js` file into your server/backend directory.
 Replace:
 
 ```js
-/*<your client/frontend URL>*/
+/*<your API/APP URL>*/
 ```
 
-with your frontend/client URL environment variable, as required by your script.
+with your API/APP's URL environment variable, as required by your script.
 
 ### 3. Import the job
 
